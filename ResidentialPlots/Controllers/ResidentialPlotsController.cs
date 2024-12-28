@@ -19,4 +19,21 @@ public class ResidentialPlotsController : Controller
 
         return View(plots);
     }
+
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Create(ResidentialPlot plot)
+    {
+        if (!ModelState.IsValid)
+            return View();
+        
+        _unitOfWork.ResidentialPlots.Add(plot);
+        _unitOfWork.Save();
+
+        return RedirectToAction(nameof(Index));
+    }
 }

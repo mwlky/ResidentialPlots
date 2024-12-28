@@ -8,7 +8,43 @@
 </head>
 <body>
 <div>
-      <p>Hello there</p>
+    <div>
+        <a type="button" class="btn btn-primary w-auto mb-3" asp-controller="ResidentialPlots" asp-action="Create">Add
+            Plot</a>
+    </div>
+
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Location</th>
+            <th scope="col">Description</th>
+            <th scope="col">Size</th>
+            <th scope="col">Price</th>
+            <th scope="col">Manage</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var plot in Model)
+        {
+            <tr>
+                <th scope="row">@plot.ID</th>
+                <td>@plot.Name</td>
+                <td>@plot.Location</td>
+                <td>@plot.Description</td>
+                <td>@plot.Size</td>
+                <td>@plot.Price</td>
+                <td style="width: 200px; text-align: center;">
+                    <a type="button" class="btn btn-primary">Edit</a>
+                    <a type="button" class="btn btn-danger">Remove</a>
+                </td>
+            </tr>
+        }
+
+        </tbody>
+
+    </table>
 </div>
 </body>
 </html>
