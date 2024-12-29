@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YAeNRkWpWdbAvzus3etj1C9WpBe0XON9Ks3hBcRAroE=",
+  "Hash": "/S+CR+F/3AM2mm2vUHq8Mxw6tunTsRBPHbqpJC8xHjI=",
   "Source": "ResidentialPlots",
   "BasePath": "_content/ResidentialPlots",
   "Mode": "Default",
@@ -626,12 +626,12 @@
       "OriginalItemSpec": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\site.css"
     },
     {
-      "Identity": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\gsgoamgpel-43atpzeawx.gz",
+      "Identity": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\gsgoamgpel-7sb1joqhgf.gz",
       "SourceId": "ResidentialPlots",
       "SourceType": "Discovered",
       "ContentRoot": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResidentialPlots",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint=43atpzeawx}]?.css.gz",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint=7sb1joqhgf}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -640,8 +640,8 @@
       "RelatedAsset": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cmcmkw9yu7",
-      "Integrity": "ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=",
+      "Fingerprint": "u3zwghwg1z",
+      "Integrity": "um1pouRH6gcpsOz4ugthlPh4mT5Hl5vrs/PQuS2bWqI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
@@ -2026,8 +2026,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "43atpzeawx",
-      "Integrity": "sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=",
+      "Fingerprint": "7sb1joqhgf",
+      "Integrity": "GduSJBQ34XeUfzGl9+7hBob0J1oGw0+QVQT7h6Rek7Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
@@ -11209,13 +11209,13 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.43atpzeawx.css",
-      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\gsgoamgpel-43atpzeawx.gz",
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.7sb1joqhgf.css",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\gsgoamgpel-7sb1joqhgf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000032290355"
+          "Quality": "0.000032190568"
         }
       ],
       "ResponseHeaders": [
@@ -11225,15 +11225,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30968"
+          "Value": "31064"
         },
         {
           "Name": "ETag",
-          "Value": "\"ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=\""
+          "Value": "\"um1pouRH6gcpsOz4ugthlPh4mT5Hl5vrs/PQuS2bWqI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 09:46:58 GMT"
+          "Value": "Sat, 28 Dec 2024 12:16:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11253,13 +11253,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
+          "Value": "W/\"GduSJBQ34XeUfzGl9+7hBob0J1oGw0+QVQT7h6Rek7Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "43atpzeawx"
+          "Value": "7sb1joqhgf"
         },
         {
           "Name": "label",
@@ -11267,12 +11267,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
+          "Value": "sha256-GduSJBQ34XeUfzGl9+7hBob0J1oGw0+QVQT7h6Rek7Q="
         }
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.43atpzeawx.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.7sb1joqhgf.css",
       "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11282,7 +11282,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "232808"
+          "Value": "233013"
         },
         {
           "Name": "Content-Type",
@@ -11290,11 +11290,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
+          "Value": "\"GduSJBQ34XeUfzGl9+7hBob0J1oGw0+QVQT7h6Rek7Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 09:46:58 GMT"
+          "Value": "Sat, 28 Dec 2024 12:16:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11304,7 +11304,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "43atpzeawx"
+          "Value": "7sb1joqhgf"
         },
         {
           "Name": "label",
@@ -11312,13 +11312,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
+          "Value": "sha256-GduSJBQ34XeUfzGl9+7hBob0J1oGw0+QVQT7h6Rek7Q="
         }
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.43atpzeawx.css.gz",
-      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\gsgoamgpel-43atpzeawx.gz",
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.7sb1joqhgf.css.gz",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\gsgoamgpel-7sb1joqhgf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11327,7 +11327,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30968"
+          "Value": "31064"
         },
         {
           "Name": "Content-Type",
@@ -11335,11 +11335,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=\""
+          "Value": "\"um1pouRH6gcpsOz4ugthlPh4mT5Hl5vrs/PQuS2bWqI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 09:46:58 GMT"
+          "Value": "Sat, 28 Dec 2024 12:16:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11357,7 +11357,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "43atpzeawx"
+          "Value": "7sb1joqhgf"
         },
         {
           "Name": "label",
@@ -11365,18 +11365,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs="
+          "Value": "sha256-um1pouRH6gcpsOz4ugthlPh4mT5Hl5vrs/PQuS2bWqI="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\gsgoamgpel-43atpzeawx.gz",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\gsgoamgpel-7sb1joqhgf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000032290355"
+          "Quality": "0.000032190568"
         }
       ],
       "ResponseHeaders": [
@@ -11386,15 +11386,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30968"
+          "Value": "31064"
         },
         {
           "Name": "ETag",
-          "Value": "\"ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=\""
+          "Value": "\"um1pouRH6gcpsOz4ugthlPh4mT5Hl5vrs/PQuS2bWqI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 09:46:58 GMT"
+          "Value": "Sat, 28 Dec 2024 12:16:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11414,13 +11414,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
+          "Value": "W/\"GduSJBQ34XeUfzGl9+7hBob0J1oGw0+QVQT7h6Rek7Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
+          "Value": "sha256-GduSJBQ34XeUfzGl9+7hBob0J1oGw0+QVQT7h6Rek7Q="
         }
       ]
     },
@@ -11435,7 +11435,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "232808"
+          "Value": "233013"
         },
         {
           "Name": "Content-Type",
@@ -11443,11 +11443,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
+          "Value": "\"GduSJBQ34XeUfzGl9+7hBob0J1oGw0+QVQT7h6Rek7Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 09:46:58 GMT"
+          "Value": "Sat, 28 Dec 2024 12:16:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11457,13 +11457,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
+          "Value": "sha256-GduSJBQ34XeUfzGl9+7hBob0J1oGw0+QVQT7h6Rek7Q="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.gz",
-      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\gsgoamgpel-43atpzeawx.gz",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\gsgoamgpel-7sb1joqhgf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11472,7 +11472,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30968"
+          "Value": "31064"
         },
         {
           "Name": "Content-Type",
@@ -11480,11 +11480,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=\""
+          "Value": "\"um1pouRH6gcpsOz4ugthlPh4mT5Hl5vrs/PQuS2bWqI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 09:46:58 GMT"
+          "Value": "Sat, 28 Dec 2024 12:16:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11502,7 +11502,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs="
+          "Value": "sha256-um1pouRH6gcpsOz4ugthlPh4mT5Hl5vrs/PQuS2bWqI="
         }
       ]
     },
