@@ -4,18 +4,11 @@ using Models;
 
 namespace ResidentialPlots.Controllers;
 
-public class ResidentialPlotsController : Controller
+public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
 {
-    private readonly IUnitOfWork _unitOfWork;
-
-    public ResidentialPlotsController(IUnitOfWork p_unitOfWork)
-    {
-        _unitOfWork = p_unitOfWork;
-    }
-
     public IActionResult Index()
     {
-        List<ResidentialPlot> plots = _unitOfWork.ResidentialPlots.GetElements();
+        List<ResidentialPlot> plots = p_unitOfWork.ResidentialPlots.GetElements();
 
         return View(plots);
     }
@@ -30,9 +23,9 @@ public class ResidentialPlotsController : Controller
     {
         if (!ModelState.IsValid)
             return View();
-        
-        _unitOfWork.ResidentialPlots.Add(plot);
-        _unitOfWork.Save();
+
+        p_unitOfWork.ResidentialPlots.Add(plot);
+        p_unitOfWork.Save();
 
         return RedirectToAction(nameof(Index));
     }
@@ -42,7 +35,7 @@ public class ResidentialPlotsController : Controller
         if (!id.HasValue)
             return NotFound();
 
-        ResidentialPlot plot = _unitOfWork.ResidentialPlots.GetElements().Find(x => x.ID == id);
+        ResidentialPlot plot = p_unitOfWork.ResidentialPlots.GetElements().Find(x => x.ID == id);
         if (plot is null)
             return NotFound();
 
@@ -54,9 +47,26 @@ public class ResidentialPlotsController : Controller
     {
         if (!ModelState.IsValid)
             return View();
-        
-        _unitOfWork.ResidentialPlots.Update(plot);
-        _unitOfWork.Save();
+
+        p_unitOfWork.ResidentialPlots.Update(plot);
+        p_unitOfWork.Save();
+
+        return RedirectToAction(nameof(Index));
+    }
+    
+
+    [HttpPost]
+    public IActionResult Remove(int? id)
+    {
+        if (!id.HasValue)
+            return RedirectToAction(nameof(Index));
+
+        ResidentialPlot plot = p_unitOfWork.ResidentialPlots.GetElements().Find(x => x.ID == id);
+        if (plot == null)
+            return NotFound();
+
+        p_unitOfWork.ResidentialPlots.Remove(plot);
+        p_unitOfWork.Save();
 
         return RedirectToAction(nameof(Index));
     }
