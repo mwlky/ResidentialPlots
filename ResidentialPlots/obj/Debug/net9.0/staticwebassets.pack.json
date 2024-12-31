@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ResidentialPlots.q6liljx767.bundle.scp.css"
     },
     {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\residentialIndex.css",
+      "PackagePath": "staticwebassets\\css\\residentialIndex.css"
+    },
+    {
       "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

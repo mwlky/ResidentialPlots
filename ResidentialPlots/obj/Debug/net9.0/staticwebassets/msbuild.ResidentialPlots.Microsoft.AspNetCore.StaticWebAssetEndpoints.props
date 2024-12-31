@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ResidentialPlots/css/residentialIndex.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\residentialIndex.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3zkRc/WTEr9S1IMznmH1HTJXUv/etPUeYXqiTfwYDVI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"395"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223zkRc/WTEr9S1IMznmH1HTJXUv/etPUeYXqiTfwYDVI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 29 Dec 2024 13:08:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ResidentialPlots/css/residentialIndex.rdrtawciup.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\residentialIndex.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rdrtawciup"},{"Name":"integrity","Value":"sha256-3zkRc/WTEr9S1IMznmH1HTJXUv/etPUeYXqiTfwYDVI="},{"Name":"label","Value":"_content/ResidentialPlots/css/residentialIndex.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"395"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223zkRc/WTEr9S1IMznmH1HTJXUv/etPUeYXqiTfwYDVI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 29 Dec 2024 13:08:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ResidentialPlots/css/site.b9sayid5wm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

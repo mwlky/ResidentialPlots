@@ -54,20 +54,32 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         return RedirectToAction(nameof(Index));
     }
     
-
-    [HttpPost]
+    
     public IActionResult Remove(int? id)
     {
         if (!id.HasValue)
             return RedirectToAction(nameof(Index));
 
         ResidentialPlot plot = p_unitOfWork.ResidentialPlots.GetElements().Find(x => x.ID == id);
-        if (plot == null)
+        if (plot is null)
             return NotFound();
 
-        p_unitOfWork.ResidentialPlots.Remove(plot);
-        p_unitOfWork.Save();
+        return View(plot);
+    }
 
+    [HttpPost]
+    public IActionResult RemovePOST(int? id)
+    {
+        if(!id.HasValue)
+            return RedirectToAction(nameof(Index));
+        
+        ResidentialPlot actualPlot = p_unitOfWork.ResidentialPlots.GetElements().Find(x => x.ID == id.Value);
+        if (actualPlot is null)
+            return NotFound();
+
+        p_unitOfWork.ResidentialPlots.Remove(actualPlot);
+        p_unitOfWork.Save();
+        
         return RedirectToAction(nameof(Index));
     }
 }

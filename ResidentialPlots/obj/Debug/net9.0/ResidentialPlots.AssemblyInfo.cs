@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResidentialPlots")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d27ee096bfa271653d97338dd0f4deb03645d03d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8091acde0c9ff10b85710eafb4f01f20c38b4087")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResidentialPlots")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResidentialPlots")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

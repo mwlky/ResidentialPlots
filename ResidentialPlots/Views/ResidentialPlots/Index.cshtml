@@ -1,89 +1,76 @@
 @model List<Models.ResidentialPlot>
 
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Management</title>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const deleteModal = document.getElementById('deleteModal');
-            const deleteFormId = document.getElementById('deleteFormId'); // Hidden input in the form
-
-            deleteModal.addEventListener('show.bs.modal', function (event) {
-                const button = event.relatedTarget; // Button that triggered the modal
-                const plotId = button.getAttribute('data-plot-id'); // Get the plot ID
-
-                if (plotId) {
-                    deleteFormId.value = plotId; // Update hidden input with plot ID
-                }
-            });
-        });
-    </script>
+    <title>Management </title>
 </head>
-<body>
-<div>
-    <div>
-        <a type="button" class="btn btn-primary w-auto mb-3" asp-controller="ResidentialPlots" asp-action="Create">Add Plot</a>
-    </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="deleteModalLabel">Warning</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    Are you sure you want to delete this plot?
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-                    <form method="post" id="deleteForm" action="/ResidentialPlots/Remove">
-                        <input type="hidden" name="id" id="deleteFormId" value="" />
-                        <button type="submit" class="btn btn-danger">Yes</button>
-                    </form>
+<body>
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Plots</h1>
+    <a class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addPlotModal">Add New Plot</a>
+</div>
+
+<div class="row">
+    @foreach (var plot in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">@plot.Name</h5>
+                    <p class="card-text">
+                        <strong>Location:</strong> @plot.Location<br>
+                        <strong>Description:</strong> @Html.Raw(plot.Description)<br>
+                        <strong>Size:</strong> @plot.Size sq.ft.<br>
+                        <strong>Price:</strong> $@plot.Price
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a asp-controller="ResidentialPlots" asp-action="Edit" asp-route-id="@plot.ID"
+                           class="btn btn-primary btn-sm">Edit</a>
+                        <a asp-controller="ResidentialPlots" asp-action="Remove" asp-route-id="@plot.ID" class="btn btn-danger btn-sm">Remove</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    }
+</div>
 
-    <table class="table table-bordered">
-        <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Name</th>
-            <th scope="col">Location</th>
-            <th scope="col">Description</th>
-            <th scope="col">Size</th>
-            <th scope="col">Price</th>
-            <th scope="col">Manage</th>
-        </tr>
-        </thead>
-        <tbody>
-        @foreach (var plot in Model)
-        {
-            <tr>
-                <th scope="row">@plot.ID</th>
-                <td>@plot.Name</td>
-                <td>@plot.Location</td>
-                <td>@plot.Description</td>
-                <td>@plot.Size</td>
-                <td>@plot.Price</td>
-                <td style="width: 200px; text-align: center;">
-                    <a asp-controller="ResidentialPlots" asp-action="Edit" asp-route-id="@plot.ID"
-                       class="btn btn-primary mx-2">
-                        <i class="bi bi-pencil-square"></i> Edit
-                    </a>
-                    <button type="button" class="btn btn-danger delete-btn" data-bs-toggle="modal"
-                            data-bs-target="#deleteModal" data-plot-id="@plot.ID">
-                        Delete
-                    </button>
-                </td>
-            </tr>
-        }
-        </tbody>
-    </table>
+<!-- Add Plot Modal -->
+<div class="modal fade" id="addPlotModal" tabindex="-1" aria-labelledby="addPlotModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addPlotModalLabel">Add New Plot</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-controller="ResidentialPlots" asp-action="Create" method="post">
+                    <div class="mb-3">
+                        <label for="plotName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="plotName" name="Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="plotLocation" class="form-label">Location</label>
+                        <input type="text" class="form-control" id="plotLocation" name="Location" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="plotDescription" class="form-label">Description</label>
+                        <textarea class="form-control" id="plotDescription" name="Description"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="plotSize" class="form-label">Size (sq.ft.)</label>
+                        <input type="number" class="form-control" id="plotSize" name="Size" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="plotPrice" class="form-label">Price ($)</label>
+                        <input type="number" class="form-control" id="plotPrice" name="Price" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save Plot</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
