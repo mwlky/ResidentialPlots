@@ -1,9 +1,13 @@
 using Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Models;
+using Utilities;
 
 namespace ResidentialPlots.Controllers;
 
+// [Area("Admin")]
+[Authorize(Roles = StaticData.RULE_ADMIN)]
 public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
 {
     public IActionResult Index()

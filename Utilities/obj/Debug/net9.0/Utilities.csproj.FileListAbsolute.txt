@@ -1,0 +1,13 @@
+W:\DotNet\ResidentialPlots\Utilities\bin\Debug\net9.0\Utilities.deps.json
+W:\DotNet\ResidentialPlots\Utilities\bin\Debug\net9.0\Utilities.dll
+W:\DotNet\ResidentialPlots\Utilities\bin\Debug\net9.0\Utilities.pdb
+W:\DotNet\ResidentialPlots\Utilities\obj\Debug\net9.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+W:\DotNet\ResidentialPlots\Utilities\obj\Debug\net9.0\Utilities.AssemblyInfoInputs.cache
+W:\DotNet\ResidentialPlots\Utilities\obj\Debug\net9.0\Utilities.AssemblyInfo.cs
+W:\DotNet\ResidentialPlots\Utilities\obj\Debug\net9.0\Utilities.csproj.CoreCompileInputs.cache
+W:\DotNet\ResidentialPlots\Utilities\obj\Debug\net9.0\Utilities.sourcelink.json
+W:\DotNet\ResidentialPlots\Utilities\obj\Debug\net9.0\Utilities.dll
+W:\DotNet\ResidentialPlots\Utilities\obj\Debug\net9.0\refint\Utilities.dll
+W:\DotNet\ResidentialPlots\Utilities\obj\Debug\net9.0\Utilities.pdb
+W:\DotNet\ResidentialPlots\Utilities\obj\Debug\net9.0\ref\Utilities.dll
+W:\DotNet\ResidentialPlots\Utilities\obj\Debug\net9.0\Utilities.csproj.AssemblyReference.cache

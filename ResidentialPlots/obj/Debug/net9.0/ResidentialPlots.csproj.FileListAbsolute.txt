@@ -143,7 +143,6 @@ W:\DotNet\ResidentialPlots\ResidentialPlots\obj\Debug\net9.0\ResidentialPlots.so
 W:\DotNet\ResidentialPlots\ResidentialPlots\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 W:\DotNet\ResidentialPlots\ResidentialPlots\obj\Debug\net9.0\scopedcss\bundle\ResidentialPlots.styles.css
 W:\DotNet\ResidentialPlots\ResidentialPlots\obj\Debug\net9.0\scopedcss\projectbundle\ResidentialPlots.bundle.scp.css
-W:\DotNet\ResidentialPlots\ResidentialPlots\obj\Debug\net9.0\compressed\g9a908ion7-b9sayid5wm.gz
 W:\DotNet\ResidentialPlots\ResidentialPlots\obj\Debug\net9.0\compressed\w0ngdwocwo-61n19gt1b8.gz
 W:\DotNet\ResidentialPlots\ResidentialPlots\obj\Debug\net9.0\compressed\r7vpjccprn-xtxxf3hu2r.gz
 W:\DotNet\ResidentialPlots\ResidentialPlots\obj\Debug\net9.0\compressed\3xq3ypqkt1-t1cqhe9u97.gz
@@ -433,3 +432,4 @@ W:\DotNet\ResidentialPlots\ResidentialPlots\obj\Debug\net9.0\compressed\v0zgfp0y
 W:\DotNet\ResidentialPlots\ResidentialPlots\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
 W:\DotNet\ResidentialPlots\ResidentialPlots\bin\Debug\net9.0\Utilities.dll
 W:\DotNet\ResidentialPlots\ResidentialPlots\bin\Debug\net9.0\Utilities.pdb
+W:\DotNet\ResidentialPlots\ResidentialPlots\obj\Debug\net9.0\compressed\g9a908ion7-r992ljy01x.gz
