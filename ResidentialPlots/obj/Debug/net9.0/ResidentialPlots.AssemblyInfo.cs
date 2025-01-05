@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResidentialPlots")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+169565f9ebae8cf7369305d769e5ab427058b7e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc60c54892738117ad60d9aa88de8ef831320d19")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResidentialPlots")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResidentialPlots")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

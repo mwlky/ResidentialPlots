@@ -38,7 +38,7 @@ public class Repository<T> : IRepository<T> where T: class
         _dbSet.Update(element);
     }
 
-    public List<T> GetElements()
+    public virtual List<T> GetElements()
     {
         return _dbSet.ToList();
     }

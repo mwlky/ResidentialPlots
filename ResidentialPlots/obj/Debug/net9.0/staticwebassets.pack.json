@@ -261,6 +261,26 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\3479d5e5-9df1-45c7-b61f-c61af541558c_last-of-us-desktop-wallpaper017-2578357382.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3479d5e5-9df1-45c7-b61f-c61af541558c_last-of-us-desktop-wallpaper017-2578357382.jpg"
+    },
+    {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\619ea46b-f0a7-426c-89a8-217b8bc0fafd_9446743.jpg",
+      "PackagePath": "staticwebassets\\uploads\\619ea46b-f0a7-426c-89a8-217b8bc0fafd_9446743.jpg"
+    },
+    {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\9ab8be23-d3ad-40be-a9fa-ff5dc4f62748_last-of-us-desktop-wallpaper017-2578357382.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9ab8be23-d3ad-40be-a9fa-ff5dc4f62748_last-of-us-desktop-wallpaper017-2578357382.jpg"
+    },
+    {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\ad920e44-1509-4622-93db-0c05bc7472fb_thumb-1920-1036312-3057878982.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ad920e44-1509-4622-93db-0c05bc7472fb_thumb-1920-1036312-3057878982.jpg"
+    },
+    {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\cf812130-e903-42d0-86d2-c2a5de8990c0_thumb-1920-1036312-3057878982.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cf812130-e903-42d0-86d2-c2a5de8990c0_thumb-1920-1036312-3057878982.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ResidentialPlots.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

@@ -1,3 +1,5 @@
+@using Data
+@using Microsoft.IdentityModel.Tokens
 @model List<Models.ResidentialPlot>
 
 <html>
@@ -17,6 +19,11 @@
     {
         <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
+                @if (!plot.Images.IsNullOrEmpty())
+                {
+                    <img class="card-img-top" src=@plot.Images.First().Path alt="Residential plot image"/>
+                }
+                
                 <div class="card-body">
                     <h5 class="card-title">@plot.Name</h5>
                     <p class="card-text">
@@ -28,7 +35,8 @@
                     <div class="d-flex justify-content-between align-items-center">
                         <a asp-controller="ResidentialPlots" asp-action="Edit" asp-route-id="@plot.ID"
                            class="btn btn-primary btn-sm">Edit</a>
-                        <a asp-controller="ResidentialPlots" asp-action="Remove" asp-route-id="@plot.ID" class="btn btn-danger btn-sm">Remove</a>
+                        <a asp-controller="ResidentialPlots" asp-action="Remove" asp-route-id="@plot.ID"
+                           class="btn btn-danger btn-sm">Remove</a>
                     </div>
                 </div>
             </div>

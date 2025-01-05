@@ -6,20 +6,24 @@ public interface IUnitOfWork
 {
     void Save();
     
+    IImageRepository ImageRepository { get; }
     IResidentialPlotRepository ResidentialPlots { get; }
 }
 
 public class UnitOfWork : IUnitOfWork
 {
-    public IResidentialPlotRepository ResidentialPlots => _residentialPlots;
-
+    public IImageRepository ImageRepository { get; }
+    public IResidentialPlotRepository ResidentialPlots { get; }
+    
+    
     private readonly ApplicationDbContext _context;
-    private readonly IResidentialPlotRepository _residentialPlots;
-
+    
     public UnitOfWork(ApplicationDbContext context)
     {
         _context = context;
-        _residentialPlots = new ResidentialPlotRepository(_context);
+        
+        ImageRepository = new ImageRepository(_context);
+        ResidentialPlots = new ResidentialPlotRepository(_context);
     }
     
     public void Save()

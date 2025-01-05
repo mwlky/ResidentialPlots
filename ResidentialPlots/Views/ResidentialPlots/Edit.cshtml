@@ -12,9 +12,9 @@
             <h2>Edit Residential Plot</h2>
         </div>
         <div class="card-body p-4">
-            <form method="post">
+            <form method="post" enctype="multipart/form-data">
                 <input asp-for="ID" type="hidden"/>
-
+                
                 <div class="mb-3">
                     <label asp-for="Name" class="form-label">Plot Name</label>
                     <input asp-for="Name" class="form-control border-0 shadow-sm" placeholder="Enter plot name"/>
@@ -48,11 +48,17 @@
                     <span asp-validation-for="Price" class="text-danger"></span>
                 </div>
 
+                <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Photos</label>
+                    <input class="form-control" type="file" id="formFileMultiple" name="images" multiple />
+                </div>
+                
                 <div class="d-flex justify-content-between mt-4">
                     <button type="submit" class="btn btn-primary px-4">Update</button>
                     <a asp-controller="ResidentialPlots" asp-action="Index" class="btn btn-outline-secondary px-4">Back
                         to List</a>
                 </div>
+                
             </form>
         </div>
     </div>
