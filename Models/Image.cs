@@ -6,13 +6,13 @@ namespace Models;
 public class Image
 {
     [Key]
-    public int ID { get; set; }
+    public int ID { get; init; }
     
-    public string? Path { get; set; }
-    public string? Title { get; set; }
+    public string? Path { get; init; }
+    public string? Title { get; init; }
     
-    public int ResidentialPlotID { get; set; }
+    public int ResidentialPlotID { get; init; }
     
     [ForeignKey(nameof(ResidentialPlotID))]
-    public ResidentialPlot ResidentialPlot { get; set; }
+    public ResidentialPlot ResidentialPlot { get; init; }
 }

@@ -14,5 +14,5 @@ public class ResidentialPlot
     public int? Size { get; init; }
     public int? Price { get; init; }
 
-    public List<Image> Images { get; set; } = new();
+    public List<Image> Images { get; init; } = new();
 }
