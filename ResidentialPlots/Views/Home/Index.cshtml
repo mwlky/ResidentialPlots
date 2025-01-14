@@ -1,8 +1,48 @@
-﻿@{
+﻿@model List<Models.ResidentialPlot>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .card:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transform: scale(1.02);
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+
+        @foreach (var plot in @Model)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    <img 
+                        class="card-img-top rounded" 
+                        src="@plot.Images.First().Path" 
+                        alt="Plot photo"
+                        style="height: 200px; object-fit: cover;">
+                    
+                    <div class="card-body">
+                        <p class="card-text text-muted mb-2">@plot.Location</p>
+                        
+                        <h5 class="card-title fw-bold text-primary">
+                            <a asp-action="Index" class="stretched-link text-decoration-none">@plot.Name</a>
+                        </h5>
+                        
+                        <h6 class="card-text fw-semibold text-dark">@plot.Price zł &#183; @plot.Size m&#178;</h6>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
 </div>
+</body>
+</html>

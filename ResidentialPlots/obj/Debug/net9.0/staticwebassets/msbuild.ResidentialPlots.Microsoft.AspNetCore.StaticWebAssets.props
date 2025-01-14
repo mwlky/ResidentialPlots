@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>b9sayid5wm</Fingerprint>
-      <Integrity>j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=</Integrity>
+      <Fingerprint>zt9g53jf47</Fingerprint>
+      <Integrity>x5ZvYFnam8pa4QZUCzOARLSrCxCvnc0SWsD9BBZrZ3s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zub09dkrxp</Fingerprint>
-      <Integrity>CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=</Integrity>
+      <Fingerprint>w7mgud9uaq</Fingerprint>
+      <Integrity>hOnTpvx9BAGxYP0OGdiryn3cCowgBzsrOU3o1shzKFc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))</OriginalItemSpec>
@@ -552,8 +552,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7sb1joqhgf</Fingerprint>
-      <Integrity>GduSJBQ34XeUfzGl9+7hBob0J1oGw0+QVQT7h6Rek7Q=</Integrity>
+      <Fingerprint>ttgxdmonui</Fingerprint>
+      <Integrity>cVjmfaiMNRUbekJkATtIGEEpcEoQOX38yP3ou0IDsuQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css'))</OriginalItemSpec>
@@ -1170,210 +1170,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ResidentialPlots.q6liljx767.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\06469b3f-87f3-4f2f-8edb-4749dbc38495_B2Miau.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5d367873-33cf-4e17-854b-0b9a9cb3a7ea_wp8754924-1455295458.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ResidentialPlots</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/06469b3f-87f3-4f2f-8edb-4749dbc38495_B2Miau.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xtx407obxl</Fingerprint>
-      <Integrity>RUCp1OlU6T1yCSqRMEBttbNfIgY/RVO3ppX8AVQcqJ0=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\06469b3f-87f3-4f2f-8edb-4749dbc38495_B2Miau.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0e55ca1b-380c-4852-a046-bb73de14516d_wp7006735-624542685.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/0e55ca1b-380c-4852-a046-bb73de14516d_wp7006735-624542685.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>womzixgsz6</Fingerprint>
-      <Integrity>YCyfNOaEma2LXqkZaEF6v+oXQl80cDjTxVtKi4X+9t8=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0e55ca1b-380c-4852-a046-bb73de14516d_wp7006735-624542685.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1150a104-0289-4734-ae78-f19b6195d90f_9446743.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/1150a104-0289-4734-ae78-f19b6195d90f_9446743.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fzwbqvzg05</Fingerprint>
-      <Integrity>RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1150a104-0289-4734-ae78-f19b6195d90f_9446743.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\17ea751e-6397-48c9-b64f-8b9cf8e9d5a4_9446743.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/17ea751e-6397-48c9-b64f-8b9cf8e9d5a4_9446743.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fzwbqvzg05</Fingerprint>
-      <Integrity>RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\17ea751e-6397-48c9-b64f-8b9cf8e9d5a4_9446743.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1af0be9b-47d6-4518-a6a9-33f702f73891_last-of-us-desktop-wallpaper017-2578357382.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/1af0be9b-47d6-4518-a6a9-33f702f73891_last-of-us-desktop-wallpaper017-2578357382.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3oxoqyf3s0</Fingerprint>
-      <Integrity>c5J+LBJFEtxU6FI4DEqTheTyuDpphX1h4lVSovNTTRQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1af0be9b-47d6-4518-a6a9-33f702f73891_last-of-us-desktop-wallpaper017-2578357382.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3479d5e5-9df1-45c7-b61f-c61af541558c_last-of-us-desktop-wallpaper017-2578357382.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/3479d5e5-9df1-45c7-b61f-c61af541558c_last-of-us-desktop-wallpaper017-2578357382.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3oxoqyf3s0</Fingerprint>
-      <Integrity>c5J+LBJFEtxU6FI4DEqTheTyuDpphX1h4lVSovNTTRQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3479d5e5-9df1-45c7-b61f-c61af541558c_last-of-us-desktop-wallpaper017-2578357382.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\41bece33-382e-4cea-a276-2c4137cd3b2c_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/41bece33-382e-4cea-a276-2c4137cd3b2c_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qto9m45o2c</Fingerprint>
-      <Integrity>EmTXSz1MfmvNgBxtU3fgcl8nyDI41/dXQ1hUIdkxxCI=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\41bece33-382e-4cea-a276-2c4137cd3b2c_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\434df4fa-aabc-4338-9200-ad2eafad9107_9446743.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/434df4fa-aabc-4338-9200-ad2eafad9107_9446743.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fzwbqvzg05</Fingerprint>
-      <Integrity>RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\434df4fa-aabc-4338-9200-ad2eafad9107_9446743.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\47665ea0-9560-4e70-97cf-e307e5b30af1_B2Miau.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/47665ea0-9560-4e70-97cf-e307e5b30af1_B2Miau.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xtx407obxl</Fingerprint>
-      <Integrity>RUCp1OlU6T1yCSqRMEBttbNfIgY/RVO3ppX8AVQcqJ0=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\47665ea0-9560-4e70-97cf-e307e5b30af1_B2Miau.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\47f73511-c1b5-48a3-ba19-d14f72053c91_1102713-2377834384.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/47f73511-c1b5-48a3-ba19-d14f72053c91_1102713-2377834384.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e8z9pdczx7</Fingerprint>
-      <Integrity>nqcmTMt15ipCK8WtZk1fYZ9+vZKzitgeJ0oYweUQoCs=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\47f73511-c1b5-48a3-ba19-d14f72053c91_1102713-2377834384.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4ce8e24c-f7de-44d6-a818-8b2986ba9310_1102713-2377834384.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/4ce8e24c-f7de-44d6-a818-8b2986ba9310_1102713-2377834384.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e8z9pdczx7</Fingerprint>
-      <Integrity>nqcmTMt15ipCK8WtZk1fYZ9+vZKzitgeJ0oYweUQoCs=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4ce8e24c-f7de-44d6-a818-8b2986ba9310_1102713-2377834384.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4d167f8a-285f-4a52-99d1-11957f6683b2_wp8754924-1455295458.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/4d167f8a-285f-4a52-99d1-11957f6683b2_wp8754924-1455295458.jpg</RelativePath>
+      <RelativePath>uploads/5d367873-33cf-4e17-854b-0b9a9cb3a7ea_wp8754924-1455295458.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1384,14 +1186,14 @@
       <Integrity>Mx2yrE6yXQ9Mjm2wRqZyUDKQsgpehAlCurb3TVIGz3c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4d167f8a-285f-4a52-99d1-11957f6683b2_wp8754924-1455295458.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5d367873-33cf-4e17-854b-0b9a9cb3a7ea_wp8754924-1455295458.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5926e649-4ba9-4af6-a7ac-b78180698eae_9446743.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6f862439-3a01-41a3-bec6-1f9c16c39175_9446743.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ResidentialPlots</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/5926e649-4ba9-4af6-a7ac-b78180698eae_9446743.jpg</RelativePath>
+      <RelativePath>uploads/6f862439-3a01-41a3-bec6-1f9c16c39175_9446743.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1402,194 +1204,14 @@
       <Integrity>RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5926e649-4ba9-4af6-a7ac-b78180698eae_9446743.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6f862439-3a01-41a3-bec6-1f9c16c39175_9446743.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\619ea46b-f0a7-426c-89a8-217b8bc0fafd_9446743.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c3705139-c294-4f03-a9e1-815898911ce5_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ResidentialPlots</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/619ea46b-f0a7-426c-89a8-217b8bc0fafd_9446743.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fzwbqvzg05</Fingerprint>
-      <Integrity>RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\619ea46b-f0a7-426c-89a8-217b8bc0fafd_9446743.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6952c760-7a8f-4a6e-bf93-7b65424da56f_B2Miau.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/6952c760-7a8f-4a6e-bf93-7b65424da56f_B2Miau.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xtx407obxl</Fingerprint>
-      <Integrity>RUCp1OlU6T1yCSqRMEBttbNfIgY/RVO3ppX8AVQcqJ0=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6952c760-7a8f-4a6e-bf93-7b65424da56f_B2Miau.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7deb4440-e01c-484f-98e1-ee225782280b_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/7deb4440-e01c-484f-98e1-ee225782280b_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qy7rqmfizi</Fingerprint>
-      <Integrity>7rwqrssZAH/lsQIvFhv2kS0EhIbXD7OlBu38bY85J90=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7deb4440-e01c-484f-98e1-ee225782280b_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\840d81c3-40d7-4f22-ab14-726b805a11e9_thumb-1920-1036312-3057878982.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/840d81c3-40d7-4f22-ab14-726b805a11e9_thumb-1920-1036312-3057878982.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h3dtkk60ic</Fingerprint>
-      <Integrity>c1SJU8ieNTXcQJn5Gp7C6Fz9O8Tl+B+htJK+VtURqcc=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\840d81c3-40d7-4f22-ab14-726b805a11e9_thumb-1920-1036312-3057878982.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\85012848-5727-4e12-b519-22c81b037c60_last-of-us-desktop-wallpaper017-2578357382.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/85012848-5727-4e12-b519-22c81b037c60_last-of-us-desktop-wallpaper017-2578357382.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3oxoqyf3s0</Fingerprint>
-      <Integrity>c5J+LBJFEtxU6FI4DEqTheTyuDpphX1h4lVSovNTTRQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\85012848-5727-4e12-b519-22c81b037c60_last-of-us-desktop-wallpaper017-2578357382.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\94a1cb31-66fc-44d6-9a3b-a8d83f43b7c6_1102713-2377834384.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/94a1cb31-66fc-44d6-9a3b-a8d83f43b7c6_1102713-2377834384.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e8z9pdczx7</Fingerprint>
-      <Integrity>nqcmTMt15ipCK8WtZk1fYZ9+vZKzitgeJ0oYweUQoCs=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\94a1cb31-66fc-44d6-9a3b-a8d83f43b7c6_1102713-2377834384.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9ab8be23-d3ad-40be-a9fa-ff5dc4f62748_last-of-us-desktop-wallpaper017-2578357382.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/9ab8be23-d3ad-40be-a9fa-ff5dc4f62748_last-of-us-desktop-wallpaper017-2578357382.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3oxoqyf3s0</Fingerprint>
-      <Integrity>c5J+LBJFEtxU6FI4DEqTheTyuDpphX1h4lVSovNTTRQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9ab8be23-d3ad-40be-a9fa-ff5dc4f62748_last-of-us-desktop-wallpaper017-2578357382.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a5bf7d03-dd6f-48df-a45d-2f4e7a029b76_1102713-2377834384.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/a5bf7d03-dd6f-48df-a45d-2f4e7a029b76_1102713-2377834384.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e8z9pdczx7</Fingerprint>
-      <Integrity>nqcmTMt15ipCK8WtZk1fYZ9+vZKzitgeJ0oYweUQoCs=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a5bf7d03-dd6f-48df-a45d-2f4e7a029b76_1102713-2377834384.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ad920e44-1509-4622-93db-0c05bc7472fb_thumb-1920-1036312-3057878982.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/ad920e44-1509-4622-93db-0c05bc7472fb_thumb-1920-1036312-3057878982.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h3dtkk60ic</Fingerprint>
-      <Integrity>c1SJU8ieNTXcQJn5Gp7C6Fz9O8Tl+B+htJK+VtURqcc=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ad920e44-1509-4622-93db-0c05bc7472fb_thumb-1920-1036312-3057878982.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b0f333e0-7df1-4a84-80fb-fd147596f228_wp1811301-2830884668.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/b0f333e0-7df1-4a84-80fb-fd147596f228_wp1811301-2830884668.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1mw3pr9m2j</Fingerprint>
-      <Integrity>2dwRw1tl6lgaqWWqmQSE5mb+r83FOjRXIT692FZgntQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b0f333e0-7df1-4a84-80fb-fd147596f228_wp1811301-2830884668.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b147af37-ac4a-4a4e-977b-673515bda31c_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/b147af37-ac4a-4a4e-977b-673515bda31c_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg</RelativePath>
+      <RelativePath>uploads/c3705139-c294-4f03-a9e1-815898911ce5_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1600,32 +1222,14 @@
       <Integrity>EmTXSz1MfmvNgBxtU3fgcl8nyDI41/dXQ1hUIdkxxCI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b147af37-ac4a-4a4e-977b-673515bda31c_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c3705139-c294-4f03-a9e1-815898911ce5_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b645001e-eb51-4431-af0d-9106a7e4407c_wp9310898-123889721.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e8d6dfc5-6389-4756-9a29-4cfe086351e4_1102713-2377834384.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ResidentialPlots</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/b645001e-eb51-4431-af0d-9106a7e4407c_wp9310898-123889721.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e3w4koc8st</Fingerprint>
-      <Integrity>ei/KxPAtmDg3NJY17+E1vTiecM2hcobF/unS5s4ds8s=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b645001e-eb51-4431-af0d-9106a7e4407c_wp9310898-123889721.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b9d939b9-32d2-42ff-a994-510c944a08b4_1102713-2377834384.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/b9d939b9-32d2-42ff-a994-510c944a08b4_1102713-2377834384.jpg</RelativePath>
+      <RelativePath>uploads/e8d6dfc5-6389-4756-9a29-4cfe086351e4_1102713-2377834384.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1636,115 +1240,7 @@
       <Integrity>nqcmTMt15ipCK8WtZk1fYZ9+vZKzitgeJ0oYweUQoCs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b9d939b9-32d2-42ff-a994-510c944a08b4_1102713-2377834384.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cf812130-e903-42d0-86d2-c2a5de8990c0_thumb-1920-1036312-3057878982.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/cf812130-e903-42d0-86d2-c2a5de8990c0_thumb-1920-1036312-3057878982.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h3dtkk60ic</Fingerprint>
-      <Integrity>c1SJU8ieNTXcQJn5Gp7C6Fz9O8Tl+B+htJK+VtURqcc=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cf812130-e903-42d0-86d2-c2a5de8990c0_thumb-1920-1036312-3057878982.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d0aaa953-a2fb-43e6-a7d4-c9837034c5d1_thumb-1920-1036312-3057878982.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/d0aaa953-a2fb-43e6-a7d4-c9837034c5d1_thumb-1920-1036312-3057878982.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h3dtkk60ic</Fingerprint>
-      <Integrity>c1SJU8ieNTXcQJn5Gp7C6Fz9O8Tl+B+htJK+VtURqcc=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d0aaa953-a2fb-43e6-a7d4-c9837034c5d1_thumb-1920-1036312-3057878982.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dbad1ac3-cd34-4da7-b0fd-3426a92e100f_B2Miau.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/dbad1ac3-cd34-4da7-b0fd-3426a92e100f_B2Miau.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xtx407obxl</Fingerprint>
-      <Integrity>RUCp1OlU6T1yCSqRMEBttbNfIgY/RVO3ppX8AVQcqJ0=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dbad1ac3-cd34-4da7-b0fd-3426a92e100f_B2Miau.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e0797935-e156-4b71-b58e-81f58fc6eba9_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/e0797935-e156-4b71-b58e-81f58fc6eba9_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qy7rqmfizi</Fingerprint>
-      <Integrity>7rwqrssZAH/lsQIvFhv2kS0EhIbXD7OlBu38bY85J90=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e0797935-e156-4b71-b58e-81f58fc6eba9_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\eee3e426-5a49-48de-b749-066ffb00a7bd_1102713-2377834384.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/eee3e426-5a49-48de-b749-066ffb00a7bd_1102713-2377834384.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e8z9pdczx7</Fingerprint>
-      <Integrity>nqcmTMt15ipCK8WtZk1fYZ9+vZKzitgeJ0oYweUQoCs=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\eee3e426-5a49-48de-b749-066ffb00a7bd_1102713-2377834384.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f45c3fbe-5032-413b-9ebf-97a74cf12e7a_9446743.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ResidentialPlots</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ResidentialPlots</BasePath>
-      <RelativePath>uploads/f45c3fbe-5032-413b-9ebf-97a74cf12e7a_9446743.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fzwbqvzg05</Fingerprint>
-      <Integrity>RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f45c3fbe-5032-413b-9ebf-97a74cf12e7a_9446743.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e8d6dfc5-6389-4756-9a29-4cfe086351e4_1102713-2377834384.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

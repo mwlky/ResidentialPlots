@@ -2,9 +2,12 @@
 @using Microsoft.IdentityModel.Tokens
 @model List<Models.ResidentialPlot>
 
+@{
+    ViewData["Title"] = "Management";
+}
+
 <html>
 <head>
-    <title>Management </title>
 </head>
 
 <body>
@@ -18,13 +21,13 @@
     @foreach (var plot in Model)
     {
         <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
+            <div class="card mb-4 shadow-sm bg-light">
                 @if (!plot.Images.IsNullOrEmpty())
                 {
                     <img class="card-img-top" src=@plot.Images.First().Path alt="Residential plot image"/>
                 }
                 
-                <div class="card-body">
+                <div class="card-body bg-light">
                     <h5 class="card-title">@plot.Name</h5>
                     <p class="card-text">
                         <strong>Location:</strong> @plot.Location<br>

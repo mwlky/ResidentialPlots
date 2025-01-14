@@ -8,7 +8,7 @@
     @if (SignInManager.IsSignedIn(User))
     {
         <li class="nav-item">
-            <a id="manage" class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index"
+            <a id="manage" class="nav-link text-nowrap" asp-area="Identity" asp-page="/Account/Manage/Index"
                title="Manage">Hello @UserManager.GetUserName(User)!</a>
         </li>
         @if (User.IsInRole(StaticData.RULE_ADMIN))

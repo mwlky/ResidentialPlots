@@ -1,21 +1,20 @@
 using System.Diagnostics;
+using Data;
 using Microsoft.AspNetCore.Mvc;
+using Models;
 using ResidentialPlots.Models;
 
 namespace ResidentialPlots.Controllers;
 
-public class HomeController : Controller
+public class HomeController(IUnitOfWork p_unitOfWork) : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
+    private readonly IUnitOfWork _unitOfWork = p_unitOfWork;
 
     public IActionResult Index()
     {
-        return View();
+        List<ResidentialPlot> plots = _unitOfWork.ResidentialPlots.GetElements();
+        
+        return View(plots);
     }
 
     public IActionResult Privacy()
