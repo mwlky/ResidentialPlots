@@ -1,7 +1,7 @@
 ﻿@model List<Models.ResidentialPlot>
 
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Strona główna";
 }
 
 <!DOCTYPE html>
@@ -33,7 +33,7 @@
                         <p class="card-text text-muted mb-2">@plot.Location</p>
                         
                         <h5 class="card-title fw-bold text-primary">
-                            <a asp-action="Index" class="stretched-link text-decoration-none">@plot.Name</a>
+                            <a asp-controller="ResidentialPlots" asp-action="Details" asp-route-id=@plot.ID class="stretched-link text-decoration-none">@plot.Name</a>
                         </h5>
                         
                         <h6 class="card-text fw-semibold text-dark">@plot.Price zł &#183; @plot.Size m&#178;</h6>

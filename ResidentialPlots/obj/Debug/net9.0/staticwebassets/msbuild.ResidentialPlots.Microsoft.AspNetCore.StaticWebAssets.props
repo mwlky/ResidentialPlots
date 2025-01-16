@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\detailsPage.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ResidentialPlots</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ResidentialPlots</BasePath>
+      <RelativePath>css/detailsPage.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vw5k5dgddy</Fingerprint>
+      <Integrity>EewnSij72BHQhE3tUuS0RovEowkAI92iHFXog2UXjf4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\detailsPage.css'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\residentialIndex.css'))">
       <SourceType>Package</SourceType>
       <SourceId>ResidentialPlots</SourceId>
@@ -30,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zt9g53jf47</Fingerprint>
-      <Integrity>x5ZvYFnam8pa4QZUCzOARLSrCxCvnc0SWsD9BBZrZ3s=</Integrity>
+      <Fingerprint>qdbptgxflx</Fingerprint>
+      <Integrity>Iq38On7dVIKdRszMyyx6TrNif5g8LLGltHn2EgWKyj8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -1205,6 +1223,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6f862439-3a01-41a3-bec6-1f9c16c39175_9446743.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7408728f-62b6-49ce-a2bf-bd58a4451821_9446743.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ResidentialPlots</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ResidentialPlots</BasePath>
+      <RelativePath>uploads/7408728f-62b6-49ce-a2bf-bd58a4451821_9446743.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fzwbqvzg05</Fingerprint>
+      <Integrity>RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7408728f-62b6-49ce-a2bf-bd58a4451821_9446743.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ResidentialPlots</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ResidentialPlots</BasePath>
+      <RelativePath>uploads/7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3oxoqyf3s0</Fingerprint>
+      <Integrity>c5J+LBJFEtxU6FI4DEqTheTyuDpphX1h4lVSovNTTRQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ResidentialPlots</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ResidentialPlots</BasePath>
+      <RelativePath>uploads/c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qy7rqmfizi</Fingerprint>
+      <Integrity>7rwqrssZAH/lsQIvFhv2kS0EhIbXD7OlBu38bY85J90=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c3705139-c294-4f03-a9e1-815898911ce5_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg'))">
       <SourceType>Package</SourceType>

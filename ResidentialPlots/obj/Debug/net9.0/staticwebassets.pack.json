@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ResidentialPlots.q6liljx767.bundle.scp.css"
     },
     {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\detailsPage.css",
+      "PackagePath": "staticwebassets\\css\\detailsPage.css"
+    },
+    {
       "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\residentialIndex.css",
       "PackagePath": "staticwebassets\\css\\residentialIndex.css"
     },
@@ -267,6 +271,18 @@
     {
       "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\6f862439-3a01-41a3-bec6-1f9c16c39175_9446743.jpg",
       "PackagePath": "staticwebassets\\uploads\\6f862439-3a01-41a3-bec6-1f9c16c39175_9446743.jpg"
+    },
+    {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\7408728f-62b6-49ce-a2bf-bd58a4451821_9446743.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7408728f-62b6-49ce-a2bf-bd58a4451821_9446743.jpg"
+    },
+    {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382.jpg"
+    },
+    {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg"
     },
     {
       "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\c3705139-c294-4f03-a9e1-815898911ce5_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg",

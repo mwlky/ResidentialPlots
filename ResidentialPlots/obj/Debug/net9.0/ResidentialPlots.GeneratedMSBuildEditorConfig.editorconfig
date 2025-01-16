@@ -196,6 +196,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzaWRlbnRpYWxQbG90c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[W:/DotNet/ResidentialPlots/ResidentialPlots/Views/ResidentialPlots/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzaWRlbnRpYWxQbG90c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [W:/DotNet/ResidentialPlots/ResidentialPlots/Views/ResidentialPlots/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzaWRlbnRpYWxQbG90c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

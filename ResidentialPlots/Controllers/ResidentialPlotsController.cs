@@ -161,4 +161,16 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         TempData["success"] = $"{StaticData.IMAGE_REMOVED} {plot.Name}";
         return RedirectToAction(nameof(Edit), new { id = plotId });
     }
+
+    public IActionResult Details(int? id)
+    {
+        if (!id.HasValue)
+            return NotFound();
+
+        ResidentialPlot plot = p_unitOfWork.ResidentialPlots.GetElements().Find(x => x.ID == id.Value);
+        if (plot == null)
+            return NotFound();
+
+        return View(plot);
+    }
 }

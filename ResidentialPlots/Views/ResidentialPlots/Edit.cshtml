@@ -13,13 +13,13 @@
 <div class="container mt-5">
     <div class="card shadow-sm border-0">
         <div class="card-header bg-primary text-white">
-            <h2>Edit Residential Plot</h2>
+            <h2>Edycja oferty</h2>
         </div>
         <div class="card-body p-4">
             <div class="mt-4">
-                <h4>Added Images</h4>
+                <h4>Dodane zdjęcia</h4>
                 <div class="row">
-                    @if (Model.Images != null && Model.Images.Any())
+                    @if (Model.Images.Any())
                     {
                         @foreach (var image in Model.Images)
                         {
@@ -29,7 +29,7 @@
                                     <form asp-action="DeleteImage" asp-controller="ResidentialPlots" method="post">
                                         <input type="hidden" name="imageId" value="@image.ID" />
                                         <input type="hidden" name="plotId" value="@Model.ID" />
-                                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                        <button type="submit" class="btn btn-danger btn-sm">Usuń</button>
                                     </form>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@
                     }
                     else
                     {
-                        <p>No images available for this plot.</p>
+                        <p>Brak dodanych zdjęć do oferty.</p>
                     }
                 </div>
             </div>
@@ -46,47 +46,46 @@
                 <input asp-for="ID" type="hidden"/>
 
                 <div class="mb-3">
-                    <label asp-for="Name" class="form-label">Plot Name</label>
-                    <input asp-for="Name" class="form-control border-0 shadow-sm" placeholder="Enter plot name"/>
+                    <label asp-for="Name" class="form-label">Nazwa działki</label>
+                    <input asp-for="Name" class="form-control border-0 shadow-sm" placeholder="Wpisz nazwę działki"/>
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
-                    <label asp-for="Location" class="form-label">Location</label>
-                    <input asp-for="Location" class="form-control border-0 shadow-sm" placeholder="Enter location"/>
+                    <label asp-for="Location" class="form-label">Lokalizacja</label>
+                    <input asp-for="Location" class="form-control border-0 shadow-sm" placeholder="Wpisz lokalizację"/>
                     <span asp-validation-for="Location" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
-                    <label asp-for="Description" class="form-label">Description</label>
+                    <label asp-for="Description" class="form-label">Opis</label>
                     <textarea asp-for="Description" id="plotDescription"
                               class="form-control border-0 shadow-sm"></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
-                    <label asp-for="Size" class="form-label">Size (sq.ft.)</label>
+                    <label asp-for="Size" class="form-label">Rozmiar m²</label>
                     <input asp-for="Size" type="number" class="form-control border-0 shadow-sm"
                            placeholder="Enter size in square feet"/>
                     <span asp-validation-for="Size" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
-                    <label asp-for="Price" class="form-label">Price ($)</label>
+                    <label asp-for="Price" class="form-label">Cena PLN</label>
                     <input asp-for="Price" type="number" class="form-control border-0 shadow-sm"
                            placeholder="Enter price in dollars"/>
                     <span asp-validation-for="Price" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
-                    <label for="formFileMultiple" class="form-label">Photos</label>
+                    <label for="formFileMultiple" class="form-label">Zdjęcia</label>
                     <input class="form-control" type="file" id="formFileMultiple" name="images" multiple/>
                 </div>
 
                 <div class="d-flex justify-content-between mt-4">
-                    <button type="submit" class="btn btn-primary px-4">Update</button>
-                    <a asp-controller="ResidentialPlots" asp-action="Index" class="btn btn-outline-secondary px-4">Back
-                        to List</a>
+                    <button type="submit" class="btn btn-primary px-4">Zaaktualizuj</button>
+                    <a asp-controller="ResidentialPlots" asp-action="Index" class="btn btn-outline-secondary px-4">Powrót</a>
                 </div>
 
             </form>

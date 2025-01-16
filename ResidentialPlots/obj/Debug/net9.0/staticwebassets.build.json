@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TCU2oFLXtDKHjqPwDBsOU67vSOweEPz/0SbXRBPtqxw=",
+  "Hash": "yazGiemF6K21MKJGUWJ+Fzl88Ex7a3Y83zYdCYFl8m0=",
   "Source": "ResidentialPlots",
   "BasePath": "_content/ResidentialPlots",
   "Mode": "Default",
@@ -1424,6 +1424,27 @@
       "OriginalItemSpec": "C:\\Users\\damia\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+      "Identity": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\1i743sy8lu-vw5k5dgddy.gz",
+      "SourceId": "ResidentialPlots",
+      "SourceType": "Discovered",
+      "ContentRoot": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ResidentialPlots",
+      "RelativePath": "css/detailsPage#[.{fingerprint=vw5k5dgddy}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\detailsPage.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "y88474zdzh",
+      "Integrity": "wmnwsQzRL8oepMF48IjxbR6rF889j0Qj8SMQg8Lg2Yg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\detailsPage.css"
+    },
+    {
       "Identity": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\284asndc0f-03hjc8e09r.gz",
       "SourceId": "ResidentialPlots",
       "SourceType": "Discovered",
@@ -2348,12 +2369,12 @@
       "OriginalItemSpec": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\g9a908ion7-zt9g53jf47.gz",
+      "Identity": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\g9a908ion7-qdbptgxflx.gz",
       "SourceId": "ResidentialPlots",
       "SourceType": "Discovered",
       "ContentRoot": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResidentialPlots",
-      "RelativePath": "css/site#[.{fingerprint=zt9g53jf47}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=qdbptgxflx}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2362,8 +2383,8 @@
       "RelatedAsset": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "12qxtfn9l9",
-      "Integrity": "13TtEYRh0O/Lfmr/N7ZkrZI9pcBqvlIwJjERTyXpl4U=",
+      "Fingerprint": "ehvfzj3rm6",
+      "Integrity": "ImzSFKNFY5c/jaZs69ATYd7plZfblwEke7vt4YSPS/8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\site.css"
@@ -4049,6 +4070,27 @@
       "OriginalItemSpec": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ResidentialPlots.bundle.scp.css"
     },
     {
+      "Identity": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\detailsPage.css",
+      "SourceId": "ResidentialPlots",
+      "SourceType": "Discovered",
+      "ContentRoot": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\",
+      "BasePath": "_content/ResidentialPlots",
+      "RelativePath": "css/detailsPage#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vw5k5dgddy",
+      "Integrity": "EewnSij72BHQhE3tUuS0RovEowkAI92iHFXog2UXjf4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\detailsPage.css"
+    },
+    {
       "Identity": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\residentialIndex.css",
       "SourceId": "ResidentialPlots",
       "SourceType": "Discovered",
@@ -4084,8 +4126,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zt9g53jf47",
-      "Integrity": "x5ZvYFnam8pa4QZUCzOARLSrCxCvnc0SWsD9BBZrZ3s=",
+      "Fingerprint": "qdbptgxflx",
+      "Integrity": "Iq38On7dVIKdRszMyyx6TrNif5g8LLGltHn2EgWKyj8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -5435,6 +5477,69 @@
       "OriginalItemSpec": "wwwroot\\uploads\\6f862439-3a01-41a3-bec6-1f9c16c39175_9446743.jpg"
     },
     {
+      "Identity": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\7408728f-62b6-49ce-a2bf-bd58a4451821_9446743.jpg",
+      "SourceId": "ResidentialPlots",
+      "SourceType": "Discovered",
+      "ContentRoot": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\",
+      "BasePath": "_content/ResidentialPlots",
+      "RelativePath": "uploads/7408728f-62b6-49ce-a2bf-bd58a4451821_9446743#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fzwbqvzg05",
+      "Integrity": "RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\7408728f-62b6-49ce-a2bf-bd58a4451821_9446743.jpg"
+    },
+    {
+      "Identity": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382.jpg",
+      "SourceId": "ResidentialPlots",
+      "SourceType": "Discovered",
+      "ContentRoot": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\",
+      "BasePath": "_content/ResidentialPlots",
+      "RelativePath": "uploads/7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3oxoqyf3s0",
+      "Integrity": "c5J+LBJFEtxU6FI4DEqTheTyuDpphX1h4lVSovNTTRQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382.jpg"
+    },
+    {
+      "Identity": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg",
+      "SourceId": "ResidentialPlots",
+      "SourceType": "Discovered",
+      "ContentRoot": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\",
+      "BasePath": "_content/ResidentialPlots",
+      "RelativePath": "uploads/c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qy7rqmfizi",
+      "Integrity": "7rwqrssZAH/lsQIvFhv2kS0EhIbXD7OlBu38bY85J90=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg"
+    },
+    {
       "Identity": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\c3705139-c294-4f03-a9e1-815898911ce5_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg",
       "SourceId": "ResidentialPlots",
       "SourceType": "Discovered",
@@ -5478,6 +5583,304 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/detailsPage.css",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\1i743sy8lu-vw5k5dgddy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002577319588"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "387"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmnwsQzRL8oepMF48IjxbR6rF889j0Qj8SMQg8Lg2Yg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 17:02:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EewnSij72BHQhE3tUuS0RovEowkAI92iHFXog2UXjf4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EewnSij72BHQhE3tUuS0RovEowkAI92iHFXog2UXjf4="
+        }
+      ]
+    },
+    {
+      "Route": "css/detailsPage.css",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\detailsPage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EewnSij72BHQhE3tUuS0RovEowkAI92iHFXog2UXjf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 17:02:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EewnSij72BHQhE3tUuS0RovEowkAI92iHFXog2UXjf4="
+        }
+      ]
+    },
+    {
+      "Route": "css/detailsPage.css.gz",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\1i743sy8lu-vw5k5dgddy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmnwsQzRL8oepMF48IjxbR6rF889j0Qj8SMQg8Lg2Yg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 17:02:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmnwsQzRL8oepMF48IjxbR6rF889j0Qj8SMQg8Lg2Yg="
+        }
+      ]
+    },
+    {
+      "Route": "css/detailsPage.vw5k5dgddy.css",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\1i743sy8lu-vw5k5dgddy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002577319588"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "387"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmnwsQzRL8oepMF48IjxbR6rF889j0Qj8SMQg8Lg2Yg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 17:02:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EewnSij72BHQhE3tUuS0RovEowkAI92iHFXog2UXjf4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vw5k5dgddy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/detailsPage.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EewnSij72BHQhE3tUuS0RovEowkAI92iHFXog2UXjf4="
+        }
+      ]
+    },
+    {
+      "Route": "css/detailsPage.vw5k5dgddy.css",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\detailsPage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EewnSij72BHQhE3tUuS0RovEowkAI92iHFXog2UXjf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 17:02:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vw5k5dgddy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/detailsPage.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EewnSij72BHQhE3tUuS0RovEowkAI92iHFXog2UXjf4="
+        }
+      ]
+    },
+    {
+      "Route": "css/detailsPage.vw5k5dgddy.css.gz",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\1i743sy8lu-vw5k5dgddy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmnwsQzRL8oepMF48IjxbR6rF889j0Qj8SMQg8Lg2Yg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 17:02:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vw5k5dgddy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/detailsPage.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmnwsQzRL8oepMF48IjxbR6rF889j0Qj8SMQg8Lg2Yg="
+        }
+      ]
+    },
     {
       "Route": "css/residentialIndex.css",
       "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\xgntbim7rm-rdrtawciup.gz",
@@ -5815,12 +6218,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\g9a908ion7-zt9g53jf47.gz",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\g9a908ion7-qdbptgxflx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002994011976"
+          "Quality": "0.002785515320"
         }
       ],
       "ResponseHeaders": [
@@ -5830,15 +6233,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "333"
+          "Value": "358"
         },
         {
           "Name": "ETag",
-          "Value": "\"13TtEYRh0O/Lfmr/N7ZkrZI9pcBqvlIwJjERTyXpl4U=\""
+          "Value": "\"ImzSFKNFY5c/jaZs69ATYd7plZfblwEke7vt4YSPS/8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:24:38 GMT"
+          "Value": "Thu, 16 Jan 2025 17:01:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5858,13 +6261,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"x5ZvYFnam8pa4QZUCzOARLSrCxCvnc0SWsD9BBZrZ3s=\""
+          "Value": "W/\"Iq38On7dVIKdRszMyyx6TrNif5g8LLGltHn2EgWKyj8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-x5ZvYFnam8pa4QZUCzOARLSrCxCvnc0SWsD9BBZrZ3s="
+          "Value": "sha256-Iq38On7dVIKdRszMyyx6TrNif5g8LLGltHn2EgWKyj8="
         }
       ]
     },
@@ -5879,7 +6282,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "691"
+          "Value": "730"
         },
         {
           "Name": "Content-Type",
@@ -5887,11 +6290,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x5ZvYFnam8pa4QZUCzOARLSrCxCvnc0SWsD9BBZrZ3s=\""
+          "Value": "\"Iq38On7dVIKdRszMyyx6TrNif5g8LLGltHn2EgWKyj8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:24:38 GMT"
+          "Value": "Thu, 16 Jan 2025 17:01:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5901,13 +6304,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-x5ZvYFnam8pa4QZUCzOARLSrCxCvnc0SWsD9BBZrZ3s="
+          "Value": "sha256-Iq38On7dVIKdRszMyyx6TrNif5g8LLGltHn2EgWKyj8="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\g9a908ion7-zt9g53jf47.gz",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\g9a908ion7-qdbptgxflx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5916,7 +6319,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "333"
+          "Value": "358"
         },
         {
           "Name": "Content-Type",
@@ -5924,11 +6327,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"13TtEYRh0O/Lfmr/N7ZkrZI9pcBqvlIwJjERTyXpl4U=\""
+          "Value": "\"ImzSFKNFY5c/jaZs69ATYd7plZfblwEke7vt4YSPS/8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:24:38 GMT"
+          "Value": "Thu, 16 Jan 2025 17:01:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5946,18 +6349,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-13TtEYRh0O/Lfmr/N7ZkrZI9pcBqvlIwJjERTyXpl4U="
+          "Value": "sha256-ImzSFKNFY5c/jaZs69ATYd7plZfblwEke7vt4YSPS/8="
         }
       ]
     },
     {
-      "Route": "css/site.zt9g53jf47.css",
-      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\g9a908ion7-zt9g53jf47.gz",
+      "Route": "css/site.qdbptgxflx.css",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\g9a908ion7-qdbptgxflx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002994011976"
+          "Quality": "0.002785515320"
         }
       ],
       "ResponseHeaders": [
@@ -5967,15 +6370,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "333"
+          "Value": "358"
         },
         {
           "Name": "ETag",
-          "Value": "\"13TtEYRh0O/Lfmr/N7ZkrZI9pcBqvlIwJjERTyXpl4U=\""
+          "Value": "\"ImzSFKNFY5c/jaZs69ATYd7plZfblwEke7vt4YSPS/8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:24:38 GMT"
+          "Value": "Thu, 16 Jan 2025 17:01:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5995,13 +6398,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"x5ZvYFnam8pa4QZUCzOARLSrCxCvnc0SWsD9BBZrZ3s=\""
+          "Value": "W/\"Iq38On7dVIKdRszMyyx6TrNif5g8LLGltHn2EgWKyj8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zt9g53jf47"
+          "Value": "qdbptgxflx"
         },
         {
           "Name": "label",
@@ -6009,12 +6412,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-x5ZvYFnam8pa4QZUCzOARLSrCxCvnc0SWsD9BBZrZ3s="
+          "Value": "sha256-Iq38On7dVIKdRszMyyx6TrNif5g8LLGltHn2EgWKyj8="
         }
       ]
     },
     {
-      "Route": "css/site.zt9g53jf47.css",
+      "Route": "css/site.qdbptgxflx.css",
       "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6024,7 +6427,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "691"
+          "Value": "730"
         },
         {
           "Name": "Content-Type",
@@ -6032,11 +6435,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x5ZvYFnam8pa4QZUCzOARLSrCxCvnc0SWsD9BBZrZ3s=\""
+          "Value": "\"Iq38On7dVIKdRszMyyx6TrNif5g8LLGltHn2EgWKyj8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:24:38 GMT"
+          "Value": "Thu, 16 Jan 2025 17:01:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6046,7 +6449,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zt9g53jf47"
+          "Value": "qdbptgxflx"
         },
         {
           "Name": "label",
@@ -6054,13 +6457,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-x5ZvYFnam8pa4QZUCzOARLSrCxCvnc0SWsD9BBZrZ3s="
+          "Value": "sha256-Iq38On7dVIKdRszMyyx6TrNif5g8LLGltHn2EgWKyj8="
         }
       ]
     },
     {
-      "Route": "css/site.zt9g53jf47.css.gz",
-      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\g9a908ion7-zt9g53jf47.gz",
+      "Route": "css/site.qdbptgxflx.css.gz",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\obj\\Debug\\net9.0\\compressed\\g9a908ion7-qdbptgxflx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6069,7 +6472,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "333"
+          "Value": "358"
         },
         {
           "Name": "Content-Type",
@@ -6077,11 +6480,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"13TtEYRh0O/Lfmr/N7ZkrZI9pcBqvlIwJjERTyXpl4U=\""
+          "Value": "\"ImzSFKNFY5c/jaZs69ATYd7plZfblwEke7vt4YSPS/8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:24:38 GMT"
+          "Value": "Thu, 16 Jan 2025 17:01:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6099,7 +6502,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zt9g53jf47"
+          "Value": "qdbptgxflx"
         },
         {
           "Name": "label",
@@ -6107,7 +6510,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-13TtEYRh0O/Lfmr/N7ZkrZI9pcBqvlIwJjERTyXpl4U="
+          "Value": "sha256-ImzSFKNFY5c/jaZs69ATYd7plZfblwEke7vt4YSPS/8="
         }
       ]
     },
@@ -35221,7 +35624,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:32:10 GMT"
+          "Value": "Thu, 16 Jan 2025 16:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35274,7 +35677,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:32:10 GMT"
+          "Value": "Thu, 16 Jan 2025 16:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35311,7 +35714,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:32:10 GMT"
+          "Value": "Thu, 16 Jan 2025 16:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35358,7 +35761,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:32:10 GMT"
+          "Value": "Thu, 16 Jan 2025 16:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35419,7 +35822,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:32:10 GMT"
+          "Value": "Thu, 16 Jan 2025 16:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35464,7 +35867,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:32:10 GMT"
+          "Value": "Thu, 16 Jan 2025 16:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35519,7 +35922,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:32:10 GMT"
+          "Value": "Thu, 16 Jan 2025 16:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35580,7 +35983,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:32:10 GMT"
+          "Value": "Thu, 16 Jan 2025 16:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35625,7 +36028,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:32:10 GMT"
+          "Value": "Thu, 16 Jan 2025 16:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35680,7 +36083,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:32:10 GMT"
+          "Value": "Thu, 16 Jan 2025 16:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35733,7 +36136,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:32:10 GMT"
+          "Value": "Thu, 16 Jan 2025 16:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35770,7 +36173,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 16:32:10 GMT"
+          "Value": "Thu, 16 Jan 2025 16:38:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35953,6 +36356,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7408728f-62b6-49ce-a2bf-bd58a4451821_9446743.fzwbqvzg05.jpg",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\7408728f-62b6-49ce-a2bf-bd58a4451821_9446743.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "838879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 16:52:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fzwbqvzg05"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/7408728f-62b6-49ce-a2bf-bd58a4451821_9446743.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7408728f-62b6-49ce-a2bf-bd58a4451821_9446743.jpg",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\7408728f-62b6-49ce-a2bf-bd58a4451821_9446743.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "838879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 16:52:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RR5s8aHrx0mR15+2qHVx8cx6NtYkYih+xUnPDndv/Pk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382.3oxoqyf3s0.jpg",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "365816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c5J+LBJFEtxU6FI4DEqTheTyuDpphX1h4lVSovNTTRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 16:52:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3oxoqyf3s0"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c5J+LBJFEtxU6FI4DEqTheTyuDpphX1h4lVSovNTTRQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382.jpg",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\7d294445-91ec-448d-be8d-8ea32cbd84a9_last-of-us-desktop-wallpaper017-2578357382.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "365816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c5J+LBJFEtxU6FI4DEqTheTyuDpphX1h4lVSovNTTRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 16:52:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c5J+LBJFEtxU6FI4DEqTheTyuDpphX1h4lVSovNTTRQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6008765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7rwqrssZAH/lsQIvFhv2kS0EhIbXD7OlBu38bY85J90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 16:52:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7rwqrssZAH/lsQIvFhv2kS0EhIbXD7OlBu38bY85J90="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867.qy7rqmfizi.jpg",
+      "AssetFile": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6008765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7rwqrssZAH/lsQIvFhv2kS0EhIbXD7OlBu38bY85J90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 16:52:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qy7rqmfizi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/c01b0767-8ccb-47fc-8527-690fe0d3a026_the-last-of-us-part-ii_66856_3840x2160-351979867.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7rwqrssZAH/lsQIvFhv2kS0EhIbXD7OlBu38bY85J90="
         }
       ]
     },

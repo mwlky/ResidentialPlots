@@ -7,7 +7,6 @@ public interface IRepository<T> where T : class
 {
     void Add(T element);
     void Remove(T element);
-    void Update(T element);
 
     List<T> GetElements();
 }
@@ -31,11 +30,6 @@ public class Repository<T> : IRepository<T> where T: class
     public void Remove(T element)
     {
         _dbSet.Remove(element);
-    }
-
-    public void Update(T element)
-    {
-        _dbSet.Update(element);
     }
 
     public virtual List<T> GetElements()

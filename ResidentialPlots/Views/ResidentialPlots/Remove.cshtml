@@ -12,42 +12,42 @@
 <div class="container mt-5">
     <div class="card shadow-sm border-0">
         <div class="card-header bg-primary text-white">
-            <h2>Remove Residential Plot: @Model.Name</h2>
+            <h2>Usuń: @Model.Name</h2>
         </div>
         <div class="card-body p-4">
             <form method="post">
                 <input asp-for="ID" type="hidden"/>
 
                 <div class="mb-3">
-                    <label asp-for="Name" class="form-label">Plot Name</label>
+                    <label asp-for="Name" class="form-label">Nazwa</label>
                     <input asp-for="Name" class="form-control border-0 shadow-sm" placeholder="Enter plot name"
                            readonly/>
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
-                    <label asp-for="Location" class="form-label">Location</label>
+                    <label asp-for="Location" class="form-label">Lokalizacja</label>
                     <input asp-for="Location" class="form-control border-0 shadow-sm" placeholder="Enter location"
                            readonly/>
                     <span asp-validation-for="Location" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
-                    <label asp-for="Description" class="form-label">Description</label>
+                    <label asp-for="Description" class="form-label">Opis</label>
                     <textarea asp-for="Description" id="plotDescription"
                               class="form-control border-0 shadow-sm" readonly></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
-                    <label asp-for="Size" class="form-label">Size (sq.ft.)</label>
+                    <label asp-for="Size" class="form-label">Rozmiar m²</label>
                     <input asp-for="Size" type="number" class="form-control border-0 shadow-sm"
                            placeholder="Enter size in square feet" readonly/>
                     <span asp-validation-for="Size" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
-                    <label asp-for="Price" class="form-label">Price ($)</label>
+                    <label asp-for="Price" class="form-label">Cena</label>
                     <input asp-for="Price" type="number" class="form-control border-0 shadow-sm"
                            placeholder="Enter price in dollars" readonly/>
                     <span asp-validation-for="Price" class="text-danger"></span>
@@ -58,7 +58,7 @@
                             class="btn btn-danger px-4"> Remove
                     </button>
                     <a asp-controller="ResidentialPlots" asp-action="Index" class="btn btn-outline-secondary px-4">
-                        Back to List
+                        Powrót
                     </a>
                 </div>
             </form>
