@@ -13,7 +13,7 @@
 <body>
 
 <div class="d-flex justify-content-between align-items-center mb-4">
-    <h1>Plots</h1>
+    <h1>Dodane oferty</h1>
     <a class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addPlotModal">Dodaj nową działkę</a>
 </div>
 
@@ -22,11 +22,11 @@
     {
         <div class="col-md-4">
             <div class="card mb-4 shadow-sm bg-light">
-                @if (!plot.Images.IsNullOrEmpty())
-                {
-                    <img class="card-img-top" src=@plot.Images.First().Path alt="Residential plot image"/>
-                }
-                
+    
+                <img class="card-img-top"
+                     src="@(plot.Images.Any() ? plot.Images.First().Path : "default-image-path.jpg")"
+                     alt="Residential plot image"/>
+    
                 <div class="card-body bg-light">
                     <h5 class="card-title">@plot.Name</h5>
                     <p class="card-text">
@@ -45,6 +45,7 @@
             </div>
         </div>
     }
+
 </div>
 
 <!-- Add Plot Modal -->

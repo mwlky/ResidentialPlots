@@ -7,8 +7,6 @@ using Utilities;
 
 namespace ResidentialPlots.Controllers;
 
-// [Area("Admin")]
-[Authorize(Roles = StaticData.RULE_ADMIN)]
 public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
 {
     public IActionResult Index()
@@ -18,12 +16,13 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         return View(plots);
     }
 
+    [Authorize(Roles = StaticData.RULE_ADMIN)]
     public IActionResult Create()
     {
         return View();
     }
 
-    [HttpPost]
+    [HttpPost, Authorize(Roles = StaticData.RULE_ADMIN)]
     public IActionResult Create(ResidentialPlot plot)
     {
         if (!ModelState.IsValid)
@@ -37,6 +36,7 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         return RedirectToAction(nameof(Index));
     }
 
+    [Authorize(Roles = StaticData.RULE_ADMIN)]
     public IActionResult Edit(int? id)
     {
         if (!id.HasValue)
@@ -49,7 +49,7 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         return View(plot);
     }
 
-    [HttpPost]
+    [HttpPost, Authorize(Roles = StaticData.RULE_ADMIN)]
     public IActionResult Edit(ResidentialPlot plot, List<IFormFile> images)
     {
         if (!ModelState.IsValid)
@@ -59,9 +59,15 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         if (originalPlot is null)
             return NotFound();
 
-        UploadImages(originalPlot, images);
+        originalPlot.Name = plot.Name;
+        originalPlot.Size = plot.Size;
+        originalPlot.Price = plot.Price;
+        originalPlot.Location = plot.Location;
+        originalPlot.Description = plot.Description;
         
         p_unitOfWork.ResidentialPlots.Update(originalPlot);
+        UploadImages(originalPlot, images);
+        
         p_unitOfWork.Save();
 
         TempData["success"] = StaticData.PLOT_UPDATED_MESSAGE;
@@ -69,6 +75,7 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         return RedirectToAction(nameof(Index));
     }
 
+    [Authorize(Roles = StaticData.RULE_ADMIN)]
     public IActionResult Remove(int? id)
     {
         if (!id.HasValue)
@@ -81,7 +88,7 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         return View(plot);
     }
 
-    [HttpPost]
+    [HttpPost, Authorize(Roles = StaticData.RULE_ADMIN)]
     public IActionResult RemovePOST(int? id)
     {
         if (!id.HasValue)
@@ -98,6 +105,7 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         return RedirectToAction(nameof(Index));
     }
 
+    [Authorize(Roles = StaticData.RULE_ADMIN)]
     private void UploadImages(ResidentialPlot plot, List<IFormFile> images)
     {
         if (images.IsNullOrEmpty())
@@ -130,7 +138,7 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         }
     }
 
-    [HttpPost]
+    [HttpPost, Authorize(Roles = StaticData.RULE_ADMIN)]
     public IActionResult DeleteImage(int imageId, int plotId)
     {
         ResidentialPlot plot = p_unitOfWork.ResidentialPlots.GetElements().Find(x => x.ID == plotId);

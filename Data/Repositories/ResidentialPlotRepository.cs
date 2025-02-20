@@ -20,6 +20,7 @@ internal class ResidentialPlotRepository(ApplicationDbContext p_context)
 
     public void Update(ResidentialPlot plot)
     {
+        p_context.Entry(plot).State = EntityState.Modified;
         p_context.ResidentialPlots.Update(plot);
     }
 }

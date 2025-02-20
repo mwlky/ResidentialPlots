@@ -265,6 +265,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\1701db7c-952d-4bf1-9b80-404d32fe89e0_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1701db7c-952d-4bf1-9b80-404d32fe89e0_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg"
+    },
+    {
       "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\5d367873-33cf-4e17-854b-0b9a9cb3a7ea_wp8754924-1455295458.jpg",
       "PackagePath": "staticwebassets\\uploads\\5d367873-33cf-4e17-854b-0b9a9cb3a7ea_wp8754924-1455295458.jpg"
     },
@@ -289,8 +293,16 @@
       "PackagePath": "staticwebassets\\uploads\\c3705139-c294-4f03-a9e1-815898911ce5_the-last-of-us-part-ii-fan-art-ld-1920x1080-2771220595.jpg"
     },
     {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\e14b0334-a66c-4d72-92ab-8ecdb34309a0_9446743.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e14b0334-a66c-4d72-92ab-8ecdb34309a0_9446743.jpg"
+    },
+    {
       "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\e8d6dfc5-6389-4756-9a29-4cfe086351e4_1102713-2377834384.jpg",
       "PackagePath": "staticwebassets\\uploads\\e8d6dfc5-6389-4756-9a29-4cfe086351e4_1102713-2377834384.jpg"
+    },
+    {
+      "Id": "W:\\DotNet\\ResidentialPlots\\ResidentialPlots\\wwwroot\\uploads\\ee8be984-1d89-4d7c-b2df-2b6a3e6aef43_wp8754924-1455295458.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ee8be984-1d89-4d7c-b2df-2b6a3e6aef43_wp8754924-1455295458.jpg"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ResidentialPlots.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

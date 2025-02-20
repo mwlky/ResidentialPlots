@@ -16,26 +16,30 @@
     </style>
 </head>
 <body>
-<div class="container mt-5">
+<div class="d-flex justify-content-between align-items-center mb-1">
+    <h1>Aktualne oferty</h1>
+</div>
+
+<div class="container mt-2">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
 
         @foreach (var plot in @Model)
         {
             <div class="col">
                 <div class="card h-100">
-                    <img 
-                        class="card-img-top rounded" 
-                        src="@plot.Images.First().Path" 
+                    <img
+                        class="card-img-top rounded"
+                        src="@(plot.Images.Any() ? plot.Images.First().Path : "")"
                         alt="Plot photo"
                         style="height: 200px; object-fit: cover;">
-                    
+
                     <div class="card-body">
                         <p class="card-text text-muted mb-2">@plot.Location</p>
-                        
+
                         <h5 class="card-title fw-bold text-primary">
                             <a asp-controller="ResidentialPlots" asp-action="Details" asp-route-id=@plot.ID class="stretched-link text-decoration-none">@plot.Name</a>
                         </h5>
-                        
+
                         <h6 class="card-text fw-semibold text-dark">@plot.Price zł &#183; @plot.Size m&#178;</h6>
                     </div>
                 </div>

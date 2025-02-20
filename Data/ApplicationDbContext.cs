@@ -13,12 +13,6 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> p_optio
     {
         base.OnModelCreating(modelBuilder);
 
-        modelBuilder.Entity<ResidentialPlot>().HasData(
-            new ResidentialPlot
-            {
-                ID = 1, Description = "Test", Name = "Test", Location = "Warszawa", Price = 999, Size = 1000
-            });
-
         modelBuilder.Entity<Image>()
             .HasOne(img => img.ResidentialPlot)
             .WithMany(plot => plot.Images)
