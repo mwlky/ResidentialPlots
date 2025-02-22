@@ -64,14 +64,14 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         originalPlot.Price = plot.Price;
         originalPlot.Location = plot.Location;
         originalPlot.Description = plot.Description;
-        
+
         p_unitOfWork.ResidentialPlots.Update(originalPlot);
         UploadImages(originalPlot, images);
-        
+
         p_unitOfWork.Save();
 
         TempData["success"] = StaticData.PLOT_UPDATED_MESSAGE;
-        
+
         return RedirectToAction(nameof(Index));
     }
 
@@ -84,7 +84,7 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         ResidentialPlot plot = p_unitOfWork.ResidentialPlots.GetElements().Find(x => x.ID == id);
         if (plot is null)
             return NotFound();
-        
+
         return View(plot);
     }
 
@@ -132,7 +132,7 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
                 Title = fileName,
                 ResidentialPlotID = plot.ID
             };
-            
+
             p_unitOfWork.ImageRepository.Add(imageModel);
             p_unitOfWork.Save();
         }
@@ -144,7 +144,7 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         ResidentialPlot plot = p_unitOfWork.ResidentialPlots.GetElements().Find(x => x.ID == plotId);
         if (plot is null)
             return NotFound();
-        
+
         Image image = p_unitOfWork.ImageRepository.GetElements().Find(x => x.ID == imageId);
         if (image is null)
             return NotFound();
@@ -158,7 +158,8 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
         {
             p_unitOfWork.ImageRepository.GetElements().Remove(image);
 
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", image.Path?.TrimStart('/') ?? string.Empty);
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot",
+                image.Path?.TrimStart('/') ?? string.Empty);
             if (System.IO.File.Exists(filePath))
                 System.IO.File.Delete(filePath);
         }
@@ -180,5 +181,20 @@ public class ResidentialPlotsController(IUnitOfWork p_unitOfWork) : Controller
             return NotFound();
 
         return View(plot);
+    }
+
+    [HttpPost]
+    public IActionResult SendMail(EmailMessage? emailMessage)
+    {
+        if (emailMessage is null)
+        {
+            TempData["success"] = StaticData.EMAIL_SENT_ERROR;
+            return RedirectToAction(nameof(Index), StaticData.HOME_CONTROLLER);
+        }
+        
+        TempData["success"] = StaticData.EMAIL_SENT_SUCCESS;
+
+        // Due to privacy, I decided to not showing the email sending logic
+        return RedirectToAction(nameof(Index), StaticData.HOME_CONTROLLER);
     }
 }

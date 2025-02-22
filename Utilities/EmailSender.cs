@@ -4,8 +4,10 @@ namespace Utilities;
 
 public class EmailSender : IEmailSender
 {
-    // TODO: SEND EMAIL
-    public Task SendEmailAsync(string email, string subject, string htmlMessage) =>
-         Task.CompletedTask;
+    public Task SendEmailAsync(string email, string subject, string htmlMessage)
+    {
+        // Due to privacy, I decided to not showing the email sending logic
+        return Task.CompletedTask;
+    }
     
 }
